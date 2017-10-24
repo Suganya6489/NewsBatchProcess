@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" output="target/classes" path="src/main/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry excluding="**" kind="src" output="target/classes" path="src/main/resources">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" output="target/test-classes" path="src/test/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry excluding="**" kind="src" output="target/test-classes" path="src/test/resources">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="lib/apache-commons-lang.jar"/>
+	<classpathentry kind="lib" path="lib/jtds-1.2.5.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.pde.core.requiredPlugins"/>
+	<classpathentry kind="lib" path="lib/aopalliance-1.0.jar"/>
+	<classpathentry kind="lib" path="lib/commons-io-1.4.jar"/>
+	<classpathentry kind="lib" path="lib/commons-logging-1.1.1.jar"/>
+	<classpathentry kind="lib" path="lib/commons-net-3.1.jar"/>
+	<classpathentry kind="lib" path="lib/json-rpc-1.0.jar"/>
+	<classpathentry kind="lib" path="lib/jsoup-1.7.3.jar"/>
+	<classpathentry kind="lib" path="lib/jstl-1.2.jar"/>
+	<classpathentry kind="lib" path="lib/jtds-1.0.2.jar"/>
+	<classpathentry kind="lib" path="lib/log4j-1.2.14.jar"/>
+	<classpathentry kind="lib" path="lib/mail-1.4.jar"/>
+	<classpathentry kind="lib" path="lib/slf4j-api-1.5.6.jar"/>
+	<classpathentry kind="lib" path="lib/slf4j-log4j12-1.5.6.jar"/>
+	<classpathentry kind="lib" path="lib/spring-aop-3.2.2.RELEASE.jar"/>
+	<classpathentry kind="lib" path="lib/spring-beans-3.2.2.RELEASE.jar"/>
+	<classpathentry kind="lib" path="lib/spring-context-3.2.2.RELEASE.jar"/>
+	<classpathentry kind="lib" path="lib/spring-core-3.2.2.RELEASE.jar"/>
+	<classpathentry kind="lib" path="lib/spring-expression-3.2.2.RELEASE.jar"/>
+	<classpathentry kind="lib" path="lib/spring-jdbc-3.2.2.RELEASE.jar"/>
+	<classpathentry kind="lib" path="lib/spring-tx-3.2.2.RELEASE.jar"/>
+	<classpathentry kind="lib" path="lib/spring-web-3.2.2.RELEASE.jar"/>
+	<classpathentry kind="lib" path="lib/spring-webmvc-3.2.2.RELEASE.jar"/>
+	<classpathentry kind="lib" path="lib/sqljdbc4-2.0.jar"/>
+	<classpathentry kind="lib" path="lib/sqljdbc4-3.0.jar"/>
+	<classpathentry kind="lib" path="D:/jars/resteasy-jaxrs.jar"/>
+	<classpathentry kind="lib" path="D:/jars/resteasy-jaxrs-2.3.1.GA.jar"/>
+	<classpathentry kind="lib" path="lib/jaxrs-api-3.0.2.Final.jar"/>
+	<classpathentry kind="lib" path="lib/resteasy-jaxrs-2.3.1.GA.jar"/>
+	<classpathentry kind="lib" path="lib/resteasy-jaxrs.jar"/>
+	<classpathentry kind="lib" path="D:/jars/httpclient-4.2.3.jar/httpclient-4.2.3.jar"/>
+	<classpathentry kind="lib" path="D:/jars/apache-httpcomponents-httpclient.jar/apache-httpcomponents-httpclient.jar"/>
+	<classpathentry kind="lib" path="D:/jars/jsp-api-2.2.jar"/>
+	<classpathentry kind="lib" path="D:/jars/jstl.jar"/>
+	<classpathentry kind="lib" path="D:/jars/jdbc-se2.0.jar"/>
+	<classpathentry kind="lib" path="D:/jars/javax.servlet.jsp.jstl-api-1.2.1.jar"/>
+	<classpathentry kind="lib" path="D:/jars/httpcore.jar/httpcore.jar"/>
+	<classpathentry kind="lib" path="D:/jars/httpcore-4.1-alpha1.jar/httpcore-4.1-alpha1.jar"/>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>

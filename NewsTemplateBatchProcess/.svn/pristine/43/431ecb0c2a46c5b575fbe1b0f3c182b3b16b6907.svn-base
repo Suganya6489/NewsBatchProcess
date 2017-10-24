@@ -1,0 +1,8 @@
+source.NewsTemplateBatchProcesses.jar = src/main/java/,\
+                                        src/main/resources/,\
+                                        src/test/java/,\
+                                        src/test/resources/
+bin.includes = META-INF/,\
+               lib/apache-commons-lang.jar,\
+               lib/jtds-1.2.5.jar,\
+               NewsTemplateBatchProcesses.jar

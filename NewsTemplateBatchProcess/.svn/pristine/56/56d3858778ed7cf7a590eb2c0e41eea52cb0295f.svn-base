@@ -1,0 +1,102 @@
+<project name="NewsTemplateBatchProcesses" basedir="." default="NewsTemplateBatchProcessMain">
+	
+	
+	<property environment="env"/>
+	
+	<property name="appName"        value="${ant.project.name}" />
+	<property name="buildDir"       value="build" />
+	<property name="buildClassesDir" value="${buildDir}/classes" />
+	<property name="buildResourcesDir" value="${buildDir}/resources" />
+	<property name="propertiesreaderclass" value="${buildDir}/classes/com/feeds/common" />
+	<property name="srcJavaDir"      value="src" />
+	<property name="libDir"         value="lib" />
+	
+	<!--Classpath for build -->
+	<path id="build.classpath">
+			<pathelement path="."/>
+			<fileset dir="${libDir}/">
+				<!-- <include name="*.jar"/> -->
+				 <include name="**/*.jar" />
+			</fileset>
+			
+    </path>
+	
+	<!-- Path for the classes compiled -->
+	<path id="compiled.code">
+		<fileset dir="${buildClassesDir}">
+			<include name="**/*.class"/>
+			
+		</fileset>
+		
+		  
+	</path>
+	
+	
+<target name="prepareResources" depends = "clean" >
+			<!-- Check timestamp on files -->
+			<tstamp/>
+			<copy todir="${buildClassesDir}">
+				<fileset dir="conf/log4j">
+					<patternset>
+						<include name="**/*.properties"/>
+					</patternset>
+				</fileset>
+			</copy>
+			<copy todir="${buildClassesDir}" includeEmptyDirs="no">
+				<fileset dir="lib">
+					<patternset>
+						<include name="**/*.jar"/>
+					</patternset>
+				</fileset>
+			</copy>
+		<copy todir="${buildClassesDir}">
+						<fileset dir="conf">
+							<patternset>
+								<include name="**/*.properties"/>
+								
+							</patternset>
+						</fileset>
+		</copy>
+		</target>
+	
+	
+	
+	<!-- Remove classes directory for clean build -->
+		<target name="clean" description="Prepare for clean build" >
+			<delete dir="${buildDir}"/>
+			<mkdir dir="${buildDir}" />
+			<mkdir dir="${buildClassesDir}" />
+	</target>
+	
+	<!--Compiling the source-->
+		<target name="compile" depends="prepareResources">
+				<javac destdir="${buildClassesDir}" classpathref="build.classpath" debug="on">
+				<src path="${srcJavaDir}"/>
+			</javac>
+			<copy todir="${propertiesreaderclass}">
+					<fileset dir="conf">
+						<patternset>
+						<include name="**/*.properties"/>
+						</patternset>
+					</fileset>
+					
+		   </copy>
+		  
+		  	<copy todir="${buildClassesDir}" includeEmptyDirs="no">
+				<fileset dir="src/main/resources">
+					<patternset>
+						<include name="*.xml"/>
+					</patternset>
+				</fileset>
+			</copy>
+			
+		</target>
+	
+	
+	<target name="NewsTemplateBatchProcessMain" depends="compile">
+			<java classname="com.scansee.batch.execution.NewsTemplateBatchProcessMain" fork="true" classpath="./build/classes">
+				<classpath refid="build.classpath"/>
+				<classpath refid="compiled.code"/>
+			</java> 
+	</target>
+</project>

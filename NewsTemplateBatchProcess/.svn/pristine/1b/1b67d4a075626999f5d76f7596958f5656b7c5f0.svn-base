@@ -1,0 +1,15 @@
+com\scansee\batch\dao\NewsTemplateDaoImpl.class
+com\scansee\batch\exception\NewsTemplateBatchProcessesException.class
+com\scansee\batch\service\NewsTemplateService.class
+com\scansee\batch\common\PropertiesReader.class
+com\scansee\batch\execution\NewsFeeds.class
+com\scansee\batch\common\ApplicationConstants.class
+com\scansee\batch\pojo\Item.class
+com\scansee\batch\common\Utility.class
+com\scansee\batch\common\DomConfig.class
+com\scansee\batch\service\NewsTemplateServiceImpl.class
+com\scansee\batch\common\DBConnection.class
+com\scansee\batch\threads\RssBatchThread.class
+com\scansee\batch\dao\NewsTemplateDao.class
+com\scansee\batch\execution\NewsTemplateBatchProcessMain.class
+com\scansee\batch\common\EmailComponent.class

@@ -1,0 +1,14 @@
+D:\ScanSeeCode\NewsTemplateBatchProcesses_Performance\src\main\java\com\scansee\batch\service\NewsTemplateService.java
+D:\ScanSeeCode\NewsTemplateBatchProcesses_Performance\src\main\java\com\scansee\batch\threads\RssBatchThread.java
+D:\ScanSeeCode\NewsTemplateBatchProcesses_Performance\src\main\java\com\scansee\batch\common\EmailComponent.java
+D:\ScanSeeCode\NewsTemplateBatchProcesses_Performance\src\main\java\com\scansee\batch\common\PropertiesReader.java
+D:\ScanSeeCode\NewsTemplateBatchProcesses_Performance\src\main\java\com\scansee\batch\dao\NewsTemplateDao.java
+D:\ScanSeeCode\NewsTemplateBatchProcesses_Performance\src\main\java\com\scansee\batch\dao\NewsTemplateDaoImpl.java
+D:\ScanSeeCode\NewsTemplateBatchProcesses_Performance\src\main\java\com\scansee\batch\common\DBConnection.java
+D:\ScanSeeCode\NewsTemplateBatchProcesses_Performance\src\main\java\com\scansee\batch\common\Utility.java
+D:\ScanSeeCode\NewsTemplateBatchProcesses_Performance\src\main\java\com\scansee\batch\pojo\Item.java
+D:\ScanSeeCode\NewsTemplateBatchProcesses_Performance\src\main\java\com\scansee\batch\common\DomConfig.java
+D:\ScanSeeCode\NewsTemplateBatchProcesses_Performance\src\main\java\com\scansee\batch\execution\NewsTemplateBatchProcessMain.java
+D:\ScanSeeCode\NewsTemplateBatchProcesses_Performance\src\main\java\com\scansee\batch\common\ApplicationConstants.java
+D:\ScanSeeCode\NewsTemplateBatchProcesses_Performance\src\main\java\com\scansee\batch\exception\NewsTemplateBatchProcessesException.java
+D:\ScanSeeCode\NewsTemplateBatchProcesses_Performance\src\main\java\com\scansee\batch\service\NewsTemplateServiceImpl.java
